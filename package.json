@@ -1,0 +1,29 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "based on bradtraversy youtube crash course",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamwebspace/fastify-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamwebspace/fastify-api/issues"
+  },
+  "homepage": "https://github.com/dreamwebspace/fastify-api#readme",
+  "dependencies": {
+    "fastify": "^3.19.1",
+    "fastify-swagger": "^4.8.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
